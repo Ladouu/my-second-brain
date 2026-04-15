@@ -44,19 +44,13 @@ This ensures all article drafts are systematically organized and available for f
 ## Automatic Multi-Platform Repurposing
 After saving the main article, immediately execute all platform-specific agents to create optimized versions:
 
-### 1. LinkedIn Agent Execution
-- **Agent**: `linkedin-repurposer`
-- **Input**: Full article content
-- **Output File**: `drafts/linkedin-[topic-slug]-[YYYY-MM-DD].md`
-- **Purpose**: Professional networking post with engagement hooks
-
-### 2. Newsletter Agent Execution
+### 1. Newsletter Agent Execution
 - **Agent**: `newsletter-repurposer` 
 - **Input**: Full article content
 - **Output File**: `drafts/newsletter-[topic-slug]-[YYYY-MM-DD].md`
 - **Purpose**: Email-optimized content with compelling subject lines
 
-### 3. Conversational Agent Execution
+### 2. Conversational Agent Execution
 - **Agent**: `conversational-repurposer`
 - **Input**: Full article content
 - **Output File**: `drafts/social-[topic-slug]-[YYYY-MM-DD].md`
@@ -64,7 +58,7 @@ After saving the main article, immediately execute all platform-specific agents 
 
 ### Workflow Automation
 1. **Article Completion**: Main article saved to drafts folder
-2. **Agent Cascade**: All three agents process the article simultaneously
+2. **Agent Cascade**: Both agents process the article simultaneously
 3. **File Organization**: Each platform version saved with consistent naming
 4. **Update Tracking**: Any changes to main article trigger regeneration of all platform versions
 

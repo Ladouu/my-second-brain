@@ -7,7 +7,6 @@ We welcome contributions that improve the writing quality and research capabilit
 We're currently focused on improvements in these key areas:
 
 ### 1. **Agent Prompt Improvements**
-- LinkedIn agent optimization (hooks, engagement, professional tone)
 - Newsletter agent refinement (subject lines, personal voice, structure)
 - Conversational agent enhancement (social media posts, podcast Q&A scripts)
 
@@ -29,23 +28,22 @@ All contributions must include:
 
 ### Example Contribution Format
 ```
-## Improvement: LinkedIn Agent Hook Generation
+## Improvement: Newsletter Subject Line Generation
 
-**Before**: Generic opening lines that don't engage
-**After**: Compelling hooks that drive comments and shares
+**Before**: Generic subject lines that don't engage
+**After**: Compelling subject lines that drive open rates
 
 **Test Results**:
 - Original prompt generated: "Here's an interesting trend in remote work..."
-- Improved prompt generated: "Most productivity advice for remote workers is still stuck in 2019."
+- Improved prompt generated: "The productivity advice that's failing you"
 
-**Why Better**: The improved version uses a contrarian hook that immediately challenges assumptions, leading to higher engagement rates.
+**Why Better**: The improved version uses a curiosity gap that immediately challenges assumptions, leading to higher open rates.
 ```
 
 ## 🚀 How to Contribute
 
 ### Small Improvements (Preferred)
 Focus on specific, targeted enhancements:
-- Better LinkedIn post hooks
 - More engaging newsletter subject lines
 - Improved research source prioritization
 - Enhanced voice consistency in outputs
@@ -82,14 +80,14 @@ cd claudecode-writertemplate
 ### 4. Submit Your Contribution
 ```bash
 # Create a new branch
-git checkout -b improve-linkedin-agent
+git checkout -b improve-newsletter-agent
 
 # Make your changes and commit
 git add .
-git commit -m "Improve LinkedIn agent hook generation"
+git commit -m "Improve newsletter subject line generation"
 
 # Push and create pull request
-git push origin improve-linkedin-agent
+git push origin improve-newsletter-agent
 ```
 
 ### 5. Pull Request Requirements
@@ -136,7 +134,6 @@ Contributors will be acknowledged in our **Contributors** section of the README 
 Not sure where to start? Here are specific areas that need attention:
 
 ### Agent Improvements
-- LinkedIn: Better engagement questions, industry-specific hooks
 - Newsletter: More compelling subject line formulas, better CTAs
 - Social Media: Platform-specific optimization, trending format adoption
 

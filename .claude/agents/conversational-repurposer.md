@@ -57,13 +57,6 @@ You will create:
    - Include relevant emojis as visual anchors (maximum 2 per tweet)
    - Time-sensitive hooks when applicable ("Just discovered...", "Breaking:")
 
-#### LinkedIn Micro-Posts
-For quick LinkedIn updates (300-500 characters):
-- Professional insight format
-- One clear lesson or observation
-- Direct address to reader ("You might think X, but...")
-- End with engagement prompt
-
 ### Phase 3: Podcast Q&A Development
 
 #### Question Crafting (10-15 seconds spoken)
@@ -132,7 +125,7 @@ If source content is:
 
 ### For Social Media Request:
 ```
-PLATFORM: [Twitter/X Thread | LinkedIn Micro-Post]
+PLATFORM: [Twitter/X Thread]
 
 [Content formatted exactly as it should appear]
 

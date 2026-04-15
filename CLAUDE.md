@@ -21,7 +21,6 @@ All brand/voice guidelines live in `context/`. Agents handle platform optimizati
 my-second-brain/
 ├── .claude/
 │   ├── agents/                        # Platform-specific repurposing agents
-│   │   ├── linkedin-repurposer.md     # Professional networking content
 │   │   ├── newsletter-repurposer.md   # Email newsletter content
 │   │   └── conversational-repurposer.md # Social media + podcast Q&A
 │   └── commands/                      # Workflow slash commands
@@ -66,8 +65,7 @@ The full workflow has 5 phases. Each phase can also be used independently.
 - Output saved to: `drafts/article-[topic-slug]-[YYYY-MM-DD].md`
 
 ### Phase 5: Automatic Repurposing (triggered by `/write`)
-After saving the article, `/write` automatically cascades to all three agents:
-- **LinkedIn**: `drafts/linkedin-[topic-slug]-[YYYY-MM-DD].md`
+After saving the article, `/write` automatically cascades to both agents:
 - **Newsletter**: `drafts/newsletter-[topic-slug]-[YYYY-MM-DD].md`
 - **Social + Podcast**: `drafts/social-[topic-slug]-[YYYY-MM-DD].md`
 
@@ -96,14 +94,6 @@ After saving the article, `/write` automatically cascades to all three agents:
 
 All agents use the Opus model and have access to: Read, Write, Edit, Grep, Glob, WebSearch.
 
-### `linkedin-repurposer`
-- **Focus**: B2B communication, thought leadership, professional engagement
-- **Hook frameworks**: Counterintuitive Truth, Transformation Story, Industry Secret, Mistake Confession, Data Revelation
-- **Post structure**: 5-section value delivery (Context, Insight x2, Application, Engagement)
-- **Optimization**: Mobile-first formatting, dwell time, early engagement, comment catalysts
-- **Hashtag strategy**: 5 hashtags following a specific hierarchy
-- **Output**: `drafts/linkedin-[topic-slug]-[YYYY-MM-DD].md`
-
 ### `newsletter-repurposer`
 - **Focus**: Email marketing, subscriber psychology, inbox optimization
 - **Subject line frameworks**: Curiosity Gap, Personal Question, Numbered Promise, Contrarian View, Timely Hook, Direct Value
@@ -124,7 +114,7 @@ All agents use the Opus model and have access to: Read, Write, Edit, Grep, Glob,
 Always reference these files for consistency — never duplicate their content.
 
 ### `context/writing-examples.md`
-- Contains the user's actual writing samples across platforms (LinkedIn, newsletter, social media, podcast)
+- Contains the user's actual writing samples across platforms (newsletter, social media, podcast)
 - All agents and the `/write` command reference this to match the user's voice
 - Users should add 2-3 real examples per platform for best results
 
@@ -141,13 +131,12 @@ All generated content follows this pattern:
 ```
 
 Where:
-- **type**: `article`, `linkedin`, `newsletter`, `social`, `theme-analysis`, `research-brief`
+- **type**: `article`, `newsletter`, `social`, `theme-analysis`, `research-brief`
 - **topic-slug**: Lowercase, hyphenated summary of the topic
 - **YYYY-MM-DD**: Date of creation
 
 Examples:
 - `drafts/article-remote-work-productivity-2024-01-15.md`
-- `drafts/linkedin-remote-work-productivity-2024-01-15.md`
 - `research/research-brief-remote-work-productivity-2024-01-15.md`
 - `research/theme-analysis-2024-01-15.md`
 

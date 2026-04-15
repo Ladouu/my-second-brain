@@ -13,7 +13,7 @@ The template provides a complete, ready-to-use architecture that works immediate
 1. **Voice Learning**: Add a few examples of your existing writing, and Claude learns your style
 2. **Smart Research**: Tell it your favorite sources, and it checks them first for relevant insights
 3. **Automated Workflow**: Simple commands like `/research` and `/write` handle the entire process
-4. **Platform Specialists**: Built-in agents that know exactly how to optimize for LinkedIn, newsletters, and social media
+4. **Platform Specialists**: Built-in agents that know exactly how to optimize for newsletters and social media
 
 No coding required. No complex setup. Just add your examples and start writing.
 
@@ -24,7 +24,6 @@ No coding required. No complex setup. Just add your examples and start writing.
 3. **Research Once**: `/research [your topic]` finds trends, data, and unique angles from your trusted sources
 4. **Write Once**: `/write` creates a comprehensive article in your voice
 5. **Publish Everywhere**: Specialized agents automatically transform your article into:
-   - LinkedIn posts with professional hooks and engagement drivers
    - Newsletter sections with compelling subject lines and personal touches
    - Twitter threads that maximize shares and conversations
    - Podcast Q&A scripts that sound naturally conversational
@@ -136,11 +135,6 @@ Claude will:
 
 ### Step 5: Repurpose for Each Platform
 
-**LinkedIn Post:**
-```
-Use the linkedin-repurposer agent on this article: [paste article]
-```
-
 **Newsletter Section:**
 ```
 Use the newsletter-repurposer agent on this article: [paste article]
@@ -190,32 +184,6 @@ A 1,200-word article titled "Why Productivity Advice is Failing Remote Workers (
 - Your authentic voice and perspective
 
 ### 5. Repurposing Phase
-
-**LinkedIn Version:**
-**You:** Use the `linkedin-repurposer` agent on this article
-
-**Claude creates:**
-```
-Most productivity advice for remote workers is still stuck in 2019.
-
-Here's what actually works:
-
-❌ Time blocking (ignores energy rhythms)
-✅ Energy blocking (work with your natural peaks)
-
-❌ Separate home office (not realistic for many)  
-✅ Transition rituals (same psychological effect)
-
-❌ More meetings for connection
-✅ Async check-ins with intention
-
-The biggest shift: Productivity isn't about managing time anymore.
-It's about managing energy and attention in a distributed world.
-
-What's your best remote productivity hack that no one talks about?
-
-#RemoteWork #Productivity #WorkFromHome #FutureOfWork
-```
 
 **Newsletter Version:**
 **You:** Use the `newsletter-repurposer` agent on this article

@@ -28,12 +28,11 @@ Provides a structured theme analysis with:
 - **Content Opportunities**: Which themes are ready for article development
 - **Supporting Evidence**: Quotes and insights from your raw notes
 - **Missing Pieces**: What additional research or development each theme needs
-- **Platform Potential**: How each theme could work across LinkedIn, newsletter, social
+- **Platform Potential**: How each theme could work across newsletter, social
 - **Next Actions**: Clear steps to develop themes into full content
 
 ## Integration Points
 The output is designed to feed directly into:
-- **LinkedIn Repurposing**: Use `linkedin-repurposer` agent on developed themes
 - **Research Command**: Feed theme briefs into `/research` for deeper development
 - **Writing Workflow**: Use themes as starting points for `/write` command
 

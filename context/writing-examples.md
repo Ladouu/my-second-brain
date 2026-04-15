@@ -5,17 +5,6 @@ This file contains real examples of your writing across different platforms to m
 ## Instructions for Use
 Add 2-3 examples from each platform you use. Include both successful posts and different content types (insights, stories, questions, etc.).
 
-## LinkedIn Examples
-*Add your actual LinkedIn posts here*
-
-Example format:
-```
-Post topic: [Brief description]
-Content: [Full post text]
-Performance: [Engagement metrics if available]
-Notes: [What worked well about this post]
-```
-
 ## Newsletter Examples
 *Add sections from your actual newsletters here*
 
